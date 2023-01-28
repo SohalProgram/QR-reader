@@ -20,8 +20,6 @@ def decoder(image):
 
         cv2.putText(frame, string, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 0), 2)
         print("Barcode: " + barcodeData + " | Type: " + barcodeType)
-        if barcodeData == "MakeLab QR code manger":
-            print("yes")
 
 cap = cv2.VideoCapture(0)
 while True:
