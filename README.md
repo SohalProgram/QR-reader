@@ -1,3 +1,4 @@
-This is a Qr reader created in a python attached with a demo and with compile to an exe file
+QR code reader, using opencv and pyzbar
+In addition, an exe file of the code is attached.
 
-Copyright © 2022 by SohalProgram
+The use of this code is free
